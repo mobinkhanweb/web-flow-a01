@@ -22,7 +22,14 @@ button{
     border-radius: 10px;
     font-weight: bold;
 }
-
+.h1-title{
+    font-size: 48px;
+    font-weight: bold;
+}
+.description-p{
+    font-size: 24px;
+    color: rgba(37, 36, 50, 0.5);
+}
 /* Nav Bar */
 nav{
     top: 0;
@@ -78,10 +85,7 @@ header{
 .left-action{
     width: 48%;
 }
-.left-action h1{
-    font-size: 48px;
-    font-weight: bold;
-}
+
 .left-action p{
     font-size: 24px;
     color: rgba(37, 36, 50, 0.5);
@@ -90,9 +94,44 @@ header{
     border: 10px solid rgb(255, 77, 77);
     width: 48%;
     height: 330px;
+    border-radius: 16px;
 }
 main div button{
     margin-top: 32px;
     width: 240px;
     height: 48px;
 }
+img{
+    border-radius: 48px;
+}
+
+.produstinfo{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+.products-content{
+    display: flex;
+    justify-content: space-between;
+    max-width: 860px;
+    text-align: center;
+    margin: 0 auto;
+}
+.produstinfo .h1-title{
+    font-size: 42px;
+    margin-top: 48px; 
+}
+.products-contents h1{
+    font-size: 100px;
+    color: #4E47FF;
+}
+.user-product{
+    background-color: rgba(78, 71, 255, 0.1);
+    max-width: 1280px;
+    height: 35 0px;
+    margin: 0 auto;
+    border-radius: 24px;
+    padding-bottom: 50px ;
+}
+
+/* Revie box */
