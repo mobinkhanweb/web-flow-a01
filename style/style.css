@@ -30,7 +30,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1140px auto;
+    max-width: 1280px;
     margin: 0px auto;
     height: 150px;
     padding: 0 150px;
@@ -38,7 +38,7 @@ nav{
 }
 
 nav h1{
-    font-size: 32px;
+    font-size: 42px;
     font-weight: bolder;
     color: #4E47FF;
 }
@@ -59,9 +59,40 @@ header{
     text-align: center; 
 }
 .header-content h1{
-    border: soli salmon;
+
     font-size: 64px;
     font-weight: bold;
     margin-bottom: 42px;
     padding-top: 50px;
+    color: #252432;
+}
+ /* main section action card */
+ .action-card{
+    height: 310px;
+    max-width: 1280px;
+    margin: 120px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left-action{
+    width: 48%;
+}
+.left-action h1{
+    font-size: 48px;
+    font-weight: bold;
+}
+.left-action p{
+    font-size: 24px;
+    color: rgba(37, 36, 50, 0.5);
+}
+.right-action{
+    border: 10px solid rgb(255, 77, 77);
+    width: 48%;
+    height: 330px;
+}
+main div button{
+    margin-top: 32px;
+    width: 240px;
+    height: 48px;
 }
