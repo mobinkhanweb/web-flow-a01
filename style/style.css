@@ -166,6 +166,23 @@ img{
     text-align: center;
 }
 
+/* focus-better */
+.focus-better{
+    height: 700px;
+    width: 1280px;
+    margin: 0 auto;
+    background-color: aqua;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    padding-top: 70px;
+}
+.focus-better h1{
+    font-size: 52px;
+}
+
+
+
 /* Form styles */
 
 .form-style{
