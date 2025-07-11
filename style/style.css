@@ -54,7 +54,7 @@ nav h1{
 header{
     width:  px auto;
     height: 700px;
-    background-image: url(/style/Assets/Hero-bg.png);
+    background-image: url(./images/Hero-bg.png);
     background-size: cover;
     display: block;
     align-items: center;
@@ -135,3 +135,9 @@ img{
 }
 
 /* Revie box */
+.review-box{
+    display: flex;
+    border: 2px solid rebeccapurple;
+    align-content: center;
+    align-items: center ;
+}
