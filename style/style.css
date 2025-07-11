@@ -250,3 +250,18 @@ footer ul li{
 }
 
 /* hover button try */
+.hover-button{
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#btn{
+    background: transparent;
+    color: #4E47FF;
+    border-radius: 8px;
+    border: 2px solid #4E47FF;
+    cursor: pointer;
+    transition: 0.5s;
+    position: relative;
+}
