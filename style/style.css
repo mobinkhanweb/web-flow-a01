@@ -15,14 +15,29 @@ body {
 
 /* Shared */
 button{
-    width: 150px;
-    height: 48px;
     background-color: #4E47FF;
     color: white;
     border: none;
     font-size: 16px;
     border-radius: 10px;
     font-weight: bold;
+}
+/* hover button try */
+.btn{
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-family: sans-serif;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    color: white;
+}
+.btn:hover{
+    color: #000047;
 }
 .h1-title{
     font-size: 48px;
@@ -249,19 +264,3 @@ footer ul li{
     background-color: white;
 }
 
-/* hover button try */
-.hover-button{
-    margin: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-#btn{
-    background: transparent;
-    color: #4E47FF;
-    border-radius: 8px;
-    border: 2px solid #4E47FF;
-    cursor: pointer;
-    transition: 0.5s;
-    position: relative;
-}
