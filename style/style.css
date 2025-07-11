@@ -258,7 +258,10 @@ footer ul li{
     text-decoration: none;
     color: rgba(137, 135, 161, 1);
     margin-top: 20px;
-    margin-bottom: 30px ;
+    margin-bottom: 30px;
+}
+.footerbar ul li a {
+    text-decoration: none;
 }
 .footer-container{
     background-color: white;
